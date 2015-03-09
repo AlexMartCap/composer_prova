@@ -1,0 +1,15 @@
+{
+    "name": "alex/miprimerpaquete",
+    "description": "nadas",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Alexandre",
+            "email": "alexmart4@gmail.com"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "~3.3",
+        "bootstrap-app/apache": "0.1.*"
+    }
+}
