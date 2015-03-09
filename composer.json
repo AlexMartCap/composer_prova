@@ -11,5 +11,8 @@
     "require": {
         "twbs/bootstrap": "~3.3",
         "bootstrap-app/apache": "0.1.*"
+    },
+    "autoload": {
+      "psr-4": {"com\\iesebre\\dam2\\pa201415\\alex\\": "src/"}
     }
 }

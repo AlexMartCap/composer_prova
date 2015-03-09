@@ -1,11 +1,14 @@
 <?php
 
-use Illuminate\Filesystem\Filesystem;
-
 require "./vendor/autoload.php";
 
-//require "./vendor/illuminate/filesystem/Filesystem.php";
+use com\iesebre\dam2\pa201415\alex\SayHello;
+use Illuminate\Filesystem\Filesystem;
 
 $fs = new Filesystem();
 
-echo "Hola mon!";
+$hello = new SayHello();
+
+$hello->sayHello();
+
+?>
